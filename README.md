@@ -44,7 +44,7 @@ Node.js version "^18.18.0 || ^19.8.0 || >= 20.0.0" is required.
     ```
     If using `yarn`, run:
     ```sh
-    yarn start
+    yarn dev
     ```
 
 6. **Access the application**: Open a web browser and navigate to the address indicated in the terminal (usually `http://localhost:3000`).
