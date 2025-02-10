@@ -24,7 +24,6 @@ export const PenumbraAppBar = ({
 
   return (
     <nav className="flex items-center justify-between bg-black-alt py-4">
-      {/* Logo e Select */}
       <div className="flex items-center gap-4">
         <Image
           src="/noctis-logo.svg"
@@ -39,15 +38,11 @@ export const PenumbraAppBar = ({
           onChange={setNetwork}
         />
       </div>
-
-      {/* Tabs */}
       <PenumbraTabs
         tabs={TABS}
         tabActive={tabActive}
         onChange={handleTabSelection}
       />
-
-      {/* Search e Chip */}
       <div className="flex items-center gap-4">
         <AppBarSearch />
         <PenumbraChips

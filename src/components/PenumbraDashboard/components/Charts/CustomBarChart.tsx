@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 const generateRandomBars = (count: number) => {
   return Array.from({ length: count }, () => ({
-    bottom: Math.floor(Math.random() * 40) + 10, // Altezza pallino azzurro
-    top: Math.floor(Math.random() * 40) + 20, // Altezza pallino arancione (sempre sopra)
+    bottom: Math.floor(Math.random() * 40) + 10,
+    top: Math.floor(Math.random() * 40) + 20,
   }));
 };
 
