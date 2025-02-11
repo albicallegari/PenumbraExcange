@@ -7,7 +7,7 @@ export const PenumbraSelect = ({
   onChange,
 }: SelectProps) => {
   return (
-    <div className="relative bg-light-gray bg-opacity-15 px-4 py-3 rounded-full w-[110px]" >
+    <div className="relative bg-light-gray-2 px-4 py-3 rounded-full w-[110px]" >
       <select
         className="text-white text-sm/1 !font-headline font-medium bg-transparent bg-opacity-15 appearance-none"
         value={initialValue}

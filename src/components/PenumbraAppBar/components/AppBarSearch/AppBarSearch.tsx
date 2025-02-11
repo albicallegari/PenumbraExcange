@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AppBarSearch = () => {
   return (
-    <div className="flex items-center bg-light-gray bg-opacity-15 px-4 py-3 rounded-full w-[190px] border border-transparent focus-within:border-penumbra-orange">
+    <div className="flex items-center bg-light-gray-2 px-4 py-3 rounded-full w-[190px] border border-transparent focus-within:border-penumbra-orange">
       <Image
         src="/icon/search.svg"
         alt="search icon"

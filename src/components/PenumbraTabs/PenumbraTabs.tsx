@@ -2,7 +2,7 @@ import { ITab, TabsProps } from "./PenumbraTabs.model";
 
 export const PenumbraTabs = ({ tabs, tabActive, onChange }: TabsProps) => {
   return (
-    <div className="flex items-center gap-3 bg-light-gray bg-opacity-15 px-4 rounded-full">
+    <div className="flex items-center gap-3 bg-light-gray-2 px-4 rounded-full">
       {tabs.map((tab: ITab, index) => (
         <div
           key={`${index}-${tab.value}`}
