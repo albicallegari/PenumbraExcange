@@ -14,7 +14,7 @@ export const TransactionsTable = ({ transactions }: TransactionsTableProps) => {
   return (
     <div className="bg-light-gray-2 rounded-2xl w-full p-5">
       <div className="flex justify-between w-full">
-        <p className="text-2xl text-white">Latest Blocks</p>
+        <p className="text-2xl text-white">Latest Transactions</p>
         <button className="text-white bg-light-gray bg-opacity-5 px-4 py-2 font-medium rounded-full">
           View All
         </button>
